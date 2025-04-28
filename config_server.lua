@@ -59,8 +59,28 @@ Config.JobInitGrade         = 1
 Config.GangInit             = "none"
 Config.GangInitGrade        = 1
 Config.HP                   = 100
-Config.Cash                 = 500.0    
-Config.Golds                = 0.0  
-Config.Food                 = 100   
-Config.Drink                = 100 
-Config.InitXP               = 10 
+Config.Cash                 = 500
+Config.Golds                = 0.0
+Config.Food                 = 100
+Config.Drink                = 100
+Config.InitXP               = 10
+
+-- New Default Values for strict mode
+Config.InitInventory        = '[{"amount":1,"meta":[],"name":"WEAPON_MELEE_TORCH"},{"amount":1,"meta":[],"name":"water"},{"amount":1,"meta":[],"name":"bread"}]'
+--currently valentine
+Config.DefaultCords         = '{"y":-7172.64,"x":1548.32,"h":360.00,"z":62.95}'
+Config.DefaultSex           = 'male'
+Config.DefaultRank          = 'player'
+Config.DefaultBank          = 0.0
+Config.DefaultBanned        = 0
+Config.DefaultWhitelist     = 0
+Config.DefaultCharID        = 1
+Config.DefaultSource        = ''
+
+--New Default Values for strict mode (nil values)
+Config.DefaultLastname      = nil
+Config.DefaultFirstname     = nil
+Config.DefaultNationality   = nil
+Config.DefaultYears         = 18
+Config.DefaultReason        = nil
+Config.DefaultLastOnline    = nil
